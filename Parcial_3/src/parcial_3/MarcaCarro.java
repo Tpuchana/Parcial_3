@@ -11,7 +11,7 @@ package parcial_3;
 public enum MarcaCarro {
     BMW(0.15), Mercedez_Benz(0.05), Audi(0.08), Lexus(0.10), Renault(0.20), Ford(0);
     
-    private double porcentDescuento;
+    private final double porcentDescuento;
 
     private MarcaCarro(double porcentDescuento) {
         this.porcentDescuento = porcentDescuento;
